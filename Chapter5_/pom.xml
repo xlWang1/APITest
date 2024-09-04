@@ -9,13 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>AutoTest</artifactId>
+    <artifactId>Chapter5_</artifactId>
+
 
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.1.0</version>
+            <version>6.2.1</version>
         </dependency>
     </dependencies>
 

@@ -12,4 +12,10 @@
             <class name="com.course.testng.suite.PayTest"/>
         </classes>
     </test>
+    <test name="groups">
+        <classes>
+            <class name="com.course.testng.suite.suiteConfig"/>
+            <class name="com.course.testng.groups.GroupsOnMethodTest"/>
+        </classes>
+    </test>
 </suite>

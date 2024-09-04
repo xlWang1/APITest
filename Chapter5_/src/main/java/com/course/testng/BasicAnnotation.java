@@ -42,4 +42,9 @@ public class BasicAnnotation {
         System.out.println("这是测试套件之后的方法");
     }
 
+    @Test(enabled = false)
+    public void testCase4(){
+        System.out.println("这也是忽略的测试用例");
+    }
+
 }
