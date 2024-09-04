@@ -15,6 +15,15 @@ public class suiteConfig {
         System.out.println("测试结束");
     }
 
+    @BeforeGroups("stu")
+    public void beforeGroupsOnStu(){
+        System.out.println("GroupsOnMethod中的beforeGroups运行");
+    }
+    @AfterGroups("stu")
+    public void afterGroupsOnStu(){
+        System.out.println("GroupsOnMethod中的afterGroups运行");
+    }
+
 
 }
 

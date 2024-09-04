@@ -22,12 +22,5 @@ public class GroupsOnMethodTest {
     public void test4(){
         System.out.println("GroupsOnMethod中的teacher2运行");
     }
-    @BeforeGroups("stu")
-    public void beforeGroupsOnStu(){
-        System.out.println("GroupsOnMethod中的beforeGroups运行");
-    }
-    @AfterGroups("stu")
-    public void afterGroupsOnStu(){
-        System.out.println("GroupsOnMethod中的afterGroups运行");
-    }
+
 }
