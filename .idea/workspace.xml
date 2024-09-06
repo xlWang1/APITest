@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1462f13d-9793-4078-aac0-37a018f33cf2" name="变更" comment="多线程、超时">
-      <change afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/tester/extend/demo/TestMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/TestNg.xml" afterDir="false" />
+    <list default="true" id="1462f13d-9793-4078-aac0-37a018f33cf2" name="变更" comment="测试报告">
+      <change afterPath="$PROJECT_DIR$/Chapter7/moco-runner-1.5.0-standalone.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startup1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupGet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupPost.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/基本操作说明" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/javacode/JsoupTest",
+    "last_opened_file_path": "E:/javacode/APITestLearn/Chapter7",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "库",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -62,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javacode\APITestLearn\Chapter7" />
       <recent name="E:\javacode\APITestLearn\Chapter5_\src\main" />
     </key>
   </component>
@@ -168,7 +170,8 @@
       <workItem from="1725453602786" duration="3747000" />
       <workItem from="1725457386326" duration="336000" />
       <workItem from="1725457734560" duration="5322000" />
-      <workItem from="1725539399222" duration="6766000" />
+      <workItem from="1725539399222" duration="7477000" />
+      <workItem from="1725628551732" duration="3166000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1725373481252</created>
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725545607502</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="测试报告">
+      <created>1725549513598</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725549513598</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +254,7 @@
     <MESSAGE value="分组" />
     <MESSAGE value="参数化" />
     <MESSAGE value="多线程、超时" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程、超时" />
+    <MESSAGE value="测试报告" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试报告" />
   </component>
 </project>

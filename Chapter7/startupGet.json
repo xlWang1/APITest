@@ -1,0 +1,27 @@
+[
+  {
+    "description": "这是一个无参的get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是一个无参的get请求"
+    }
+  },
+    {
+      "description": "这是一个有参的get请求",
+      "request": {
+        "uri": "/getwithparam",
+        "method": "get",
+        "queries": {
+          "name": "xiaobai",
+          "age": "18"
+        }
+      },
+      "response": {
+        "text": "我小白不吃苹果"
+      }
+    }
+
+]

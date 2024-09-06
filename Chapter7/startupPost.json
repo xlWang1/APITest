@@ -1,0 +1,27 @@
+[
+  {
+    "description": "这是post请求的例子",
+    "request": {
+      "uri": "/postdemo",
+      "method": "POST"
+    },
+    "response": {
+      "text": "这是响应数据"
+    }
+    },
+    {
+      "description": "这是带参数的post请求",
+      "request": {
+        "uri": "/postwithparam",
+        "method": "POST",
+        "forms": {
+          "username": "admin",
+          "password": "123456"
+        }
+      },
+      "response": {
+        "text": "参数来了"
+      }
+    }
+
+]
